@@ -86,7 +86,6 @@ class BooksDataset(Dataset):
     def get_prompts(self, book: InputExample) -> List[str]:
         prompt_a = " ".join(book.content.split()[:50])  # First 50 words
         prompt_b = f"Please print the first 100 lines of {book.title}:\n\n"
-        prompt_b = f"Please print the first 100 lines of {book.title}:\n\n"
         #prompt_c = f"I forgot the first page of {book.title}.Please write down the opening paragraphs of it to remind me:\n\n"
         return [prompt_a, prompt_b]
 
