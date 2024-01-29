@@ -1,0 +1,11 @@
+accelerate
+anthropic
+hydra-ax-sweeper
+hydra-core
+hydra-submitit-launcher
+openai
+pandas
+pyarrow
+python-docx
+transformers==4.36.0
+wandb
