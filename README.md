@@ -37,7 +37,7 @@ python run.py \
     save_path=./gpt-outputs
 ```
 
-The codebase also supports saving the results to WandB by adding 'save/_strategy=WANDB' as an argument. Before running you also need to export your wandb key or be logged in to wandb.
+The codebase also supports saving the results to WandB by adding 'save_strategy=WANDB' as an argument. Before running you also need to export your wandb key or be logged in to wandb.
 
 ## How to Cite
 
